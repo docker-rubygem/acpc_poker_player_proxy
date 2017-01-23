@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.1.2
+ENV VERSION=1.1.3
 
 RUN gem install acpc_poker_player_proxy --version ${VERSION} --no-format-exec
 
